@@ -1,0 +1,176 @@
+body {
+  margin: 0;
+}
+
+nav {
+  background-color: #c2beb5;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav h1 {
+  margin-left: 36px;
+  color: #1e1727;
+}
+
+ul.nav-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 1em;
+}
+
+ul.nav-list a {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 20px;
+}
+
+ul.nav-list li {
+  display: inline-block;
+}
+
+header {
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  /* get this image from https://www.pexels.com/ */
+  background-image: url("../assets/banner.jpg");
+  background-color: rgb(173, 173, 173);
+  background-blend-mode: multiply;
+  display: flex;
+  align-items: center;
+}
+
+header h1,
+header h2 {
+  font-family: "Roboto Mono", monospace;
+  color: #fff;
+  text-shadow: 2px 2px 5px #fff;
+  filter: none;
+}
+
+header div {
+  padding: 0 30px;
+}
+
+main {
+  padding: 10px 20px;
+  font-family: sans-serif;
+}
+
+h2.event-heading,
+h2.feature-heading {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+.event-section {
+  display: flex;
+  column-gap: 20px;
+  padding: 0 40px;
+}
+
+.event-section .card {
+  width: 33%;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-shadow: 10px 10px 16px lightblue;
+}
+
+.event-section .card img {
+  border-radius: 6px 6px 0 0;
+}
+
+.event-content {
+  padding: 20px;
+}
+
+.event-content h5,
+.event-content h4 {
+  margin: 0 0 5px 0;
+}
+
+.event-content h5 {
+  color: #711a8b;
+  font-weight: 400;
+}
+
+.event-content p {
+  margin-bottom: 0;
+}
+
+.feature-section {
+  width: 80%;
+  margin: 0 auto;
+  border: 1px solid #1e1727;
+  display: flex;
+}
+
+.hotel-section,
+.offer-section {
+  width: 50%;
+  text-align: center;
+  padding: 40px;
+}
+
+.offer-section {
+  background-color: #c2beb5;
+}
+
+.btn-primary {
+  background-color: #1e1727;
+  color: white;
+  font-size: 22px;
+  padding: 15px 40px;
+  cursor: pointer;
+}
+
+.quick-links-box ul.nav-list li {
+  display: block;
+}
+
+.quick-links-box ul.nav-list {
+  padding-top: 0;
+}
+
+.quick-links-box nav {
+  background-color: inherit;
+  color: inherit !important;
+}
+
+.quick-links-box ul.nav-list a {
+  text-transform: none;
+  padding: 5px 20px;
+  color: #fff;
+}
+
+footer {
+  background-color: #1e1727;
+  color: #fff;
+  margin-top: 20px;
+  padding-bottom: 10px;
+}
+
+footer > div {
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+footer .address-box address p {
+  margin: 8px 0;
+}
+
+.address-box,
+.quick-links-box,
+.social-media-icons {
+  width: 33%;
+}
+
+.social-media-icons {
+  cursor: pointer;
+}
